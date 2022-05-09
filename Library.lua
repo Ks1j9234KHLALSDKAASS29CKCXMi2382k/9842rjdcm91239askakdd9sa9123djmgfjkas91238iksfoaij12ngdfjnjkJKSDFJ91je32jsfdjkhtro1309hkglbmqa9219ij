@@ -87,9 +87,9 @@ function utility.create(class, properties)
 
     obj.Name = ""
 
-    for i = 1, 16 do
+    --[[for i = 1, 16 do
         obj.Name = obj.Name .. string.char(math.random(48, 122))
-    end
+    end]]
 
     for prop, v in next, properties do
         obj[prop] = v
